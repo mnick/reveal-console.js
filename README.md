@@ -20,7 +20,8 @@ put reveal-console.css in the css directory under your presentation. The
 console will look for css/reveal-console.css, so you need to locate it there.
 
 And add this to the script where you call Reveal.initialize()::
-    
+
+	```javascript
     Reveal.initialize({
         ...
         dependencies: [
@@ -29,8 +30,9 @@ And add this to the script where you call Reveal.initialize()::
             { src: 'js/reveal-console.js', async: true, callback: function() { rvconsole().init(); } },
     	]
     });
+	```
 
-You can then open the speaker window with the C key. You can also open it automatically with::
+You can then open the speaker window with the `C` key. You can also open it automatically with::
 
     rvconsole().open();
 
