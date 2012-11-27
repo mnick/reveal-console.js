@@ -40,6 +40,9 @@ rvconsole().open();
 
 The timer at the bottom of the screen starts automatically, and will reset if you click on it.
 
+Demo
+----
+Go to http://www.cip.ifi.lmu.de/~nickel/iswc2012-slides and press `C`
 
 Credits
 -------
