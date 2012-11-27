@@ -1,9 +1,9 @@
 reveal-console.js
 =================
 
-.. image:: https://github.com/regebro/impress-console/raw/master/screenshot_thumb.png
+.. image:: https://github.com/mnick/reveal-console.js/raw/master/screenshot_thumb.png
    :align: right
-   :target: https://github.com/regebro/impress-console/raw/master/screenshot.png
+   :target: https://github.com/mnick/reveal-console.js/raw/master/screenshot.png
 
 This module provides a speaker console plugin for [reveal.js](https://github.com/hakimel/reveal.js/). It shows speaker notes,
 a small view of the current slide, a preview of the next slide in order,
