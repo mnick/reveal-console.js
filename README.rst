@@ -5,11 +5,11 @@ reveal-console.js
    :align: right
    :target: https://github.com/regebro/impress-console/raw/master/screenshot.png
 
-This module provides a speaker console plugin for reveal.js. It shows speaker notes,
+This module provides a speaker console plugin for [reveal.js](https://github.com/hakimel/reveal.js/). It shows speaker notes,
 a small view of the current slide, a preview of the next slide in order,
 a clock and a resettable timer.
 
-This is an adapation of Lennart Regebro's impressConsole.js to reveal.js. When reveal.js fragments are present in a slides, they will currently be updated in the slides view but not in the preview window.
+This project is an adapation of Lennart Regebro's impressConsole.js to reveal.js. When reveal.js fragments are present in a slides, they will currently be updated in the slides view but not in the preview window. Its big advantage over current speaker notes support in reveal.js is that it runs *standalone* in the browser without requiring a separate node.js server.
 
 Usage
 =====
@@ -24,6 +24,7 @@ And add this to the script where you call Reveal.initialize()::
         ...
         dependencies: [
             ...
+            // add speaker notes support
             { src: 'js/reveal-console.js', async: true, callback: function() { rvconsole().init(); } },
     	]
     });
@@ -37,7 +38,7 @@ The timer at the bottom of the screen starts automatically, and will reset if yo
 
 Credits
 =======
-* Maximilian Nickel, nickel@dbs.ifi.lmu.de 
+* Maximilian Nickel, <nickel@dbs.ifi.lmu.de>
 
 * Lennart Regebro, regebro@gmail.com, author of impressConsole.js
 
