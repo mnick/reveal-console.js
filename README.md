@@ -34,7 +34,9 @@ Reveal.initialize({
 
 You can then open the speaker window with the `C` key. You can also open it automatically with::
 
-    rvconsole().open();
+```javascript
+rvconsole().open();
+```
 
 The timer at the bottom of the screen starts automatically, and will reset if you click on it.
 
